@@ -8,6 +8,10 @@ namespace BuilderSample
 {
     class Program
     {
+        /// <summary>
+        /// 建造者模式应用实例
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
         }
