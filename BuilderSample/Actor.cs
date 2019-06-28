@@ -14,23 +14,23 @@ namespace BuilderSample
         /// <summary>
         /// 角色类型
         /// </summary>
-        public string type { get; set; }
+        public string Type { get; set; }
         /// <summary>
         /// 性别
         /// </summary>
-        public string sex { get; set; }
+        public string Sex { get; set; }
         /// <summary>
         /// 面容
         /// </summary>
-        public string face { get; set; }
+        public string Face { get; set; }
         /// <summary>
         /// 服装
         /// </summary>
-        public string costume { get; set; }
+        public string Costume { get; set; }
         /// <summary>
         /// 发型
         /// </summary>
-        public string hairstyle { get; set; }
+        public string HairStyle { get; set; }
 
 
     }

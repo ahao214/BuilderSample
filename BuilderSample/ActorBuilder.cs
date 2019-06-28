@@ -12,11 +12,12 @@ namespace BuilderSample
     abstract class ActorBuilder
     {
         protected Actor actor = new Actor();
+
         public abstract void BuildType();
         public abstract void BuildSex();
-        public abstract string BuildFace();
-        public abstract string BuildCostume();
-        public abstract string BuildHairstyle();
+        public abstract void BuildFace();
+        public abstract void BuildCostume();
+        public abstract void BuildHairstyle();
 
         //工厂方法,返回一个完整的游戏角色对象
         public Actor CreateActor()
