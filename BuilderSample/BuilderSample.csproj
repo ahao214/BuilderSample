@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Actor.cs" />
     <Compile Include="ActorBuilder.cs" />
+    <Compile Include="ActorController.cs" />
     <Compile Include="AngelBuilder.cs" />
     <Compile Include="DevilBuilder.cs" />
     <Compile Include="HeroBuilder.cs" />
